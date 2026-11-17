@@ -339,3 +339,58 @@ section h3 {
     flex-direction: column;
     gap: 28px;
 }
+#home {
+    font-size: 20px;
+}
+
+#contact {
+    font-size: 20px;
+}
+
+#home h1,
+#contact h2 {
+    font-size: 38px;
+}
+
+#home p,
+#contact p {
+    font-size: 19px;
+    line-height: 1.8;
+}
+#home h4 {
+    color: #f2e9df;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #C5A572;
+}
+@media (max-width: 768px) {
+    #home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 300px;
+    }
+}
